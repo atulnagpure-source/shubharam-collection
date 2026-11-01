@@ -1,4 +1,4 @@
-# Shubharam Collection — Storefront
+# Shubharambh_4u — Storefront
 
 A single-file luxury ethnic wear storefront featuring hand-woven sarees, suits, and bridal lehengas with direct WhatsApp checkout and order concierge.
 

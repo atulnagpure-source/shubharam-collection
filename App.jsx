@@ -22,10 +22,10 @@ import {
    ========================================================================== */
 
 const STORE = {
-  name: "Shubharam Collection",
+  name: "Shubharambh_4u",
   whatsapp: "919000000000", // ← replace with the real business WhatsApp number
-  instagram: "https://www.instagram.com/",
-  email: "care@shubharamcollection.com",
+  instagram: "https://www.instagram.com/shubharambh_4u/",
+  email: "care@shubharambh4u.com",
   city: "Maharashtra",
   hours: "Mon – Sat · 10 am to 8 pm IST",
 };
@@ -233,9 +233,9 @@ function Header({ count, onBag, scrolled }) {
       >
         <div className="max-w-[1440px] mx-auto px-5 md:px-10 h-16 md:h-20 flex items-center justify-between gap-4">
           <a href="#top" className="leading-none shrink-0">
-            <span className="serif block text-lg md:text-2xl tracking-[0.02em]">SHUBHARAM</span>
+            <span className="serif block text-lg md:text-2xl tracking-[0.02em]">SHUBHARAMBH</span>
             <span className="block text-[8px] md:text-[9px] tracking-[0.4em] uppercase text-[#AF835E] mt-1">
-              Collection
+              _4u
             </span>
           </a>
 
@@ -282,7 +282,7 @@ function Header({ count, onBag, scrolled }) {
       {open && (
         <div className="md:hidden fixed inset-0 z-50 bg-[#FCF9F0] px-6 py-6 flex flex-col">
           <div className="flex items-center justify-between">
-            <span className="serif text-lg tracking-[0.02em]">SHUBHARAM</span>
+            <span className="serif text-lg tracking-[0.02em]">SHUBHARAMBH <span className="text-[#AF835E] text-xs">_4U</span></span>
             <button onClick={() => setOpen(false)} aria-label="Close menu" className="p-2 -mr-2">
               <X className="w-5 h-5" />
             </button>
@@ -829,7 +829,7 @@ function Atelier() {
             needle at a time.
           </h2>
           <p className="mt-6 text-[15px] leading-relaxed text-[#1A1A1A]/65 max-w-lg">
-            Shubharam began with a small workroom in Jaipur — twelve karigars, a
+            Shubharambh began with a small workroom in Maharashtra — twelve karigars, a
             shared chai table and a belief that an heirloom should be lived in,
             not locked away. Every saree is finished by the same hands that
             wove it.
@@ -970,10 +970,10 @@ function Footer() {
     <footer className="bg-[#1A1A1A] text-[#FCF9F0]/70 border-t border-[#FCF9F0]/10">
       <div className="max-w-[1440px] mx-auto px-5 md:px-10 py-12 md:py-16 grid md:grid-cols-12 gap-10">
         <div className="md:col-span-6">
-          <p className="serif text-2xl text-[#FCF9F0] tracking-[0.02em]">SHUBHARAM</p>
-          <p className="text-[8px] tracking-[0.4em] uppercase text-[#AF835E] mt-1">Collection</p>
+          <p className="serif text-2xl text-[#FCF9F0] tracking-[0.02em]">SHUBHARAMBH</p>
+          <p className="text-[8px] tracking-[0.4em] uppercase text-[#AF835E] mt-1">_4u</p>
           <p className="mt-5 text-[13px] leading-relaxed max-w-xs">
-            Handcrafted ethnic wear from Jaipur, made for life's most auspicious
+            Handcrafted ethnic wear from Maharashtra, made for life's most auspicious
             moments.
           </p>
         </div>
