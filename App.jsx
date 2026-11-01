@@ -26,7 +26,7 @@ const STORE = {
   whatsapp: "919000000000", // ← replace with the real business WhatsApp number
   instagram: "https://www.instagram.com/",
   email: "care@shubharamcollection.com",
-  city: "Jaipur · Rajasthan",
+  city: "Maharashtra",
   hours: "Mon – Sat · 10 am to 8 pm IST",
 };
 
@@ -324,7 +324,7 @@ function Hero() {
       <div className="max-w-[1440px] mx-auto px-5 md:px-10">
         <div className="grid md:grid-cols-12 gap-6 md:gap-10 items-end">
           <div className="md:col-span-7">
-            <p className="eyebrow rise">Est. 2019 · Jaipur</p>
+            <p className="eyebrow rise">Est. 2019 · Maharashtra</p>
             <h1 className="serif mt-5 text-[clamp(2.7rem,8.4vw,6.6rem)] leading-[0.92] rise" style={{ animationDelay: "80ms" }}>
               The <em className="italic text-[#AF835E]">auspicious</em>
               <br />
