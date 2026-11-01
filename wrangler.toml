@@ -1,6 +1,7 @@
 name = "shubharam-collection"
 compatibility_date = "2024-09-23"
 
-# Serving static storefront (single-page app)
+# Serving static storefront from built dist directory
 [assets]
-directory = "."
+directory = "dist"
+
