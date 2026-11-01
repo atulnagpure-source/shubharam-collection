@@ -32,88 +32,87 @@ const STORE = {
 
 const PRODUCTS = [
   {
-    id: "saffron-zardozi-saree",
-    name: "Saffron Zardozi Saree",
-    detail: "Hand-embroidered zardozi on pure silk",
-    price: 24500,
-    mrp: 28900,
-    category: "Sarees",
-    tag: "Signature",
-    sizes: ["Free Size"],
-    colour: "Saffron gold",
-    image: "https://media.base44.com/images/public/6ae6e65977dda432763374b3/9345cd93f_generated_f644c490.png",
-    note:
-      "Six weeks of hand work by our Jaipur karigars. Pure mulberry silk with a gold zardozi border, finished with a hand-rolled pico. Comes with an unstitched blouse piece.",
-  },
-  {
-    id: "ivory-chanderi-set",
-    name: "Ivory Chanderi Set",
-    detail: "Silver thread work · Kurta, palazzo, dupatta",
-    price: 18200,
+    id: "pink-floral-kurta-set",
+    name: "Pink Floral Kurta Set",
+    detail: "Cotton · Kurta, sharara & dupatta",
+    price: 1299,
     category: "Suits & Kurtas",
     tag: "New",
-    sizes: ["XS", "S", "M", "L", "XL"],
-    colour: "Ivory",
-    image: "https://media.base44.com/images/public/6ae6e65977dda432763374b3/b70332d10_generated_b7cbb881.png",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colour: "Blush pink",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product1-pink-kurta.jpg",
     note:
-      "Feather-light Chanderi silk with delicate silver buti. Cut for warm days — breathable, unlined and easy to travel with.",
+      "Beautiful pink floral printed kurta set with embroidered neckline, matching sharara and printed dupatta. Perfect for festive occasions.",
   },
   {
-    id: "basalt-midnight-kurta",
-    name: "Basalt Midnight Kurta",
-    detail: "Raw silk texture · Hand-finished placket",
-    price: 12000,
+    id: "white-green-floral-kurta",
+    name: "White Floral Kurta Set",
+    detail: "Cotton · Kurta, pants & olive dupatta",
+    price: 1199,
     category: "Suits & Kurtas",
-    sizes: ["S", "M", "L", "XL"],
-    colour: "Charcoal",
-    image: "https://media.base44.com/images/public/6ae6e65977dda432763374b3/ef69e9c85_generated_9f4a67a3.png",
+    tag: "Bestseller",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colour: "White & olive",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product2-white-kurta.jpg",
     note:
-      "A quiet, sculptural kurta in raw silk that holds its shape. Mother-of-pearl buttons and a narrow mandarin collar.",
+      "Crisp white kurta with pink-green floral print, paired with matching pants and an olive green dupatta. Light and elegant for everyday elegance.",
   },
   {
-    id: "emerald-heritage-wrap",
-    name: "Emerald Heritage Wrap",
-    detail: "Pashmina blend · Woven paisley border",
-    price: 32000,
-    mrp: 36500,
-    category: "Dupattas & Shawls",
-    tag: "Limited",
-    sizes: ["Free Size"],
-    colour: "Emerald",
-    image: "https://media.base44.com/images/public/6ae6e65977dda432763374b3/d3a8293f1_generated_8bb46f9e.png",
+    id: "teal-palm-dress",
+    name: "Teal Palm Print Dress",
+    detail: "Cotton · Flared midi dress with belt",
+    price: 999,
+    category: "Kurtis & Dresses",
+    tag: "Trending",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colour: "Teal green",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product3-teal-dress.jpg",
     note:
-      "Woven on handlooms in Kashmir, with a fine gold paisley border. Warm enough for December evenings, light enough to fold into a tote.",
+      "Gorgeous teal green midi dress with palm leaf print, flattering front-button detail and optional tie belt. Effortlessly chic for any occasion.",
   },
   {
-    id: "rani-pink-lehenga",
-    name: "Rani Pink Lehenga",
-    detail: "Zardozi & sequin · Made to measure",
-    price: 46500,
-    category: "Lehengas",
-    tag: "Bridal",
+    id: "white-embroidered-anarkali",
+    name: "White Embroidered Anarkali",
+    detail: "Georgette · Kurta, palazzo & dupatta",
+    price: 2499,
+    mrp: 2999,
+    category: "Suits & Kurtas",
+    tag: "Premium",
     sizes: ["XS", "S", "M", "L", "XL"],
-    colour: "Rani pink",
-    image: "https://media.base44.com/images/public/6ae6e65977dda432763374b3/a4e034208_generated_c5a90b77.png",
+    colour: "Pearl white",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product4-anarkali.jpg",
     note:
-      "Our most requested wedding piece, stitched to your measurements in 12–14 days. Includes blouse and dupatta. Sizing call arranged on WhatsApp.",
+      "Stunning white anarkali set with delicate floral embroidery at the hem and neckline. Includes matching palazzo and sheer dupatta. Perfect for weddings and celebrations.",
   },
   {
-    id: "pearl-kota-dupatta",
-    name: "Pearl Kota Dupatta",
-    detail: "Kota doria · Gold zari border",
-    price: 6800,
-    category: "Dupattas & Shawls",
-    sizes: ["Free Size"],
-    colour: "Ivory gold",
-    image: "https://media.base44.com/images/public/6ae6e65977dda432763374b3/b7176a7ef_generated_53c16b9e.png",
+    id: "green-floral-kaftan",
+    name: "Green Floral Kaftan",
+    detail: "Rayon · Flowy kaftan dress",
+    price: 899,
+    category: "Kurtis & Dresses",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colour: "Forest green",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product5-green-kaftan.jpg",
     note:
-      "The easiest way to finish a plain kurta. Airy Kota doria with a hand-woven zari edge, 2.5 metres.",
+      "Breezy green kaftan with all-over floral print. Easy tie-up waist, comfortable and stylish — great for casual days or beach vacations.",
+  },
+  {
+    id: "pink-floral-kurta-set-2",
+    name: "Pink Printed Sharara Set",
+    detail: "Cotton · Kurta & sharara combo",
+    price: 1399,
+    category: "Suits & Kurtas",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colour: "Blush pink",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product1-pink-kurta.jpg",
+    note:
+      "Elegant sharara kurta set in blush pink with all-over floral block print. Embroidered neckline with tassel detail. A festive favourite.",
   },
 ];
 
 const IMG = {
-  hero: "https://media.base44.com/images/public/6ae6e65977dda432763374b3/29ddee151_generated_252ade55.png",
-  atelier: "https://media.base44.com/images/public/6ae6e65977dda432763374b3/323b66055_generated_f7b67209.png",
+  hero: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product4-anarkali.jpg",
+  atelier: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product1-pink-kurta.jpg",
 };
 
 const money = (n) => "₹" + n.toLocaleString("en-IN");
@@ -233,10 +232,7 @@ function Header({ count, onBag, scrolled }) {
       >
         <div className="max-w-[1440px] mx-auto px-5 md:px-10 h-16 md:h-20 flex items-center justify-between gap-4">
           <a href="#top" className="leading-none shrink-0">
-            <span className="serif block text-lg md:text-2xl tracking-[0.02em]">SHUBHARAMBH</span>
-            <span className="block text-[8px] md:text-[9px] tracking-[0.4em] uppercase text-[#AF835E] mt-1">
-              _4u
-            </span>
+            <span className="serif block text-lg md:text-2xl tracking-[0.02em]">SHUBHARAMBH<span className="text-[#AF835E]">_4u</span></span>
           </a>
 
           <nav className="hidden md:flex items-center gap-9">
@@ -970,8 +966,7 @@ function Footer() {
     <footer className="bg-[#1A1A1A] text-[#FCF9F0]/70 border-t border-[#FCF9F0]/10">
       <div className="max-w-[1440px] mx-auto px-5 md:px-10 py-12 md:py-16 grid md:grid-cols-12 gap-10">
         <div className="md:col-span-6">
-          <p className="serif text-2xl text-[#FCF9F0] tracking-[0.02em]">SHUBHARAMBH</p>
-          <p className="text-[8px] tracking-[0.4em] uppercase text-[#AF835E] mt-1">_4u</p>
+          <p className="serif text-2xl text-[#FCF9F0] tracking-[0.02em]">SHUBHARAMBH<span className="text-[#AF835E]">_4u</span></p>
           <p className="mt-5 text-[13px] leading-relaxed max-w-xs">
             Handcrafted ethnic wear from Maharashtra, made for life's most auspicious
             moments.
