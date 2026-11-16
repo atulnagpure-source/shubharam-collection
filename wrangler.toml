@@ -1,7 +1,5 @@
-name = "shubharam-collection"
-compatibility_date = "2024-09-23"
+name = "shubharambh-4u"
+compatibility_date = "2024-01-01"
 
-# Serving static storefront from built dist directory
 [assets]
 directory = "dist"
-
