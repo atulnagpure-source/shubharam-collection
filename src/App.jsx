@@ -32,20 +32,19 @@ const STORE = {
 
 const PRODUCTS = [
   {
-    id: "pink-floral-kurta-set",
-    name: "Pink Floral Kurta Set",
+    id: "pink-printed-kurta-set",
+    name: "Pink Printed Kurta Set",
     detail: "Cotton · Kurta, sharara & dupatta",
     price: 1299,
     category: "Suits & Kurtas",
     tag: "New",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colour: "Blush pink",
-    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product1-pink-kurta.jpg",
-    note:
-      "Beautiful pink floral printed kurta set with embroidered neckline, matching sharara and printed dupatta. Perfect for festive occasions.",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/new1-pink-kurta-set.jpg",
+    note: "Elegant pink floral printed kurta set with embroidered neckline, matching sharara and printed dupatta. Perfect for festive occasions.",
   },
   {
-    id: "white-green-floral-kurta",
+    id: "white-floral-kurta-set",
     name: "White Floral Kurta Set",
     detail: "Cotton · Kurta, pants & olive dupatta",
     price: 1199,
@@ -53,12 +52,11 @@ const PRODUCTS = [
     tag: "Bestseller",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colour: "White & olive",
-    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product2-white-kurta.jpg",
-    note:
-      "Crisp white kurta with pink-green floral print, paired with matching pants and an olive green dupatta. Light and elegant for everyday elegance.",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/new2-white-floral-kurta.jpg",
+    note: "Crisp white kurta with pink-green floral print, paired with matching pants and an olive green dupatta. Light and elegant for everyday wear.",
   },
   {
-    id: "teal-palm-dress",
+    id: "teal-palm-print-dress",
     name: "Teal Palm Print Dress",
     detail: "Cotton · Flared midi dress with belt",
     price: 999,
@@ -66,53 +64,26 @@ const PRODUCTS = [
     tag: "Trending",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colour: "Teal green",
-    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product3-teal-dress.jpg",
-    note:
-      "Gorgeous teal green midi dress with palm leaf print, flattering front-button detail and optional tie belt. Effortlessly chic for any occasion.",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/new3-teal-palm-dress.jpg",
+    note: "Gorgeous teal green midi dress with palm leaf print, flattering front-button detail and optional tie belt. Effortlessly chic for any occasion.",
   },
   {
-    id: "white-embroidered-anarkali",
-    name: "White Embroidered Anarkali",
-    detail: "Georgette · Kurta, palazzo & dupatta",
-    price: 2499,
-    mrp: 2999,
-    category: "Suits & Kurtas",
-    tag: "Premium",
-    sizes: ["XS", "S", "M", "L", "XL"],
-    colour: "Pearl white",
-    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product4-anarkali.jpg",
-    note:
-      "Stunning white anarkali set with delicate floral embroidery at the hem and neckline. Includes matching palazzo and sheer dupatta. Perfect for weddings and celebrations.",
-  },
-  {
-    id: "green-floral-kaftan",
-    name: "Green Floral Kaftan",
-    detail: "Rayon · Flowy kaftan dress",
-    price: 899,
+    id: "green-floral-anarkali",
+    name: "Green Floral Anarkali",
+    detail: "Rayon · Flowy anarkali dress",
+    price: 1099,
     category: "Kurtis & Dresses",
+    tag: "New",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colour: "Forest green",
-    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product5-green-kaftan.jpg",
-    note:
-      "Breezy green kaftan with all-over floral print. Easy tie-up waist, comfortable and stylish — great for casual days or beach vacations.",
-  },
-  {
-    id: "pink-floral-kurta-set-2",
-    name: "Pink Printed Sharara Set",
-    detail: "Cotton · Kurta & sharara combo",
-    price: 1399,
-    category: "Suits & Kurtas",
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    colour: "Blush pink",
-    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product1-pink-kurta.jpg",
-    note:
-      "Elegant sharara kurta set in blush pink with all-over floral block print. Embroidered neckline with tassel detail. A festive favourite.",
+    image: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/new4-green-anarkali.jpg",
+    note: "Beautiful green floral anarkali with all-over print. Comfortable, flowy fit — perfect for casual days and festive events alike.",
   },
 ];
 
 const IMG = {
-  hero: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product4-anarkali.jpg",
-  atelier: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/product1-pink-kurta.jpg",
+  hero: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/new1-pink-kurta-set.jpg",
+  atelier: "https://raw.githubusercontent.com/atulnagpure-source/shubharam-collection/main/images/new2-white-floral-kurta.jpg",
 };
 
 const money = (n) => "₹" + n.toLocaleString("en-IN");
